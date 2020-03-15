@@ -14,7 +14,7 @@
 # 利用ツールについて
 
 - [browserlist](https://qiita.com/takeshisakuma/items/0bc1c39ee976bd1f52d7)
-- jest(default)
+- jest
 - react-scripts
 - typescript
 - prettier
@@ -51,3 +51,14 @@ npm install -D husky lint-staged prettier
 npx -p @storybook/cli sb init
 npm run storybook
 ```
+
+## パフォーマンス測定
+
+https://ja.reactjs.org/docs/perf.html  
+https://ja.reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-chrome-performance-tab
+
+## お役立ちリンク
+[チートシート](https://devhints.io/react)
+[React Patterns](https://reactpatterns.com/)
+[React Hooksチートシート](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
+[majestic](https://github.com/Raathigesh/majestic)
