@@ -20,6 +20,7 @@
 - prettier
 - storybook
 - [material-ui](https://qiita.com/Ouvill/items/c6761c32d31ffb11e114)
+- styled-component
 
 # react導入手順
 
@@ -50,6 +51,19 @@ npm install -D husky lint-staged prettier
 ```bash
 npx -p @storybook/cli sb init
 npm run storybook
+```
+
+## analyzer
+
+```bash
+npm install --save source-map-explorer
+```
+
+## styled-component
+
+```bash
+npm install --save styled-components
+npm install @types/styled-components
 ```
 
 ## パフォーマンス測定

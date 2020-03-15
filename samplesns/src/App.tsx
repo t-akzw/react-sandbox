@@ -1,6 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
 
 function App() {
   return (
@@ -17,6 +29,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <Wrapper>
+            <Title>Hello World!</Title>
+          </Wrapper>
         </a>
       </header>
     </div>
