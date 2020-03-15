@@ -32,3 +32,9 @@ cd samplesns
 npm start
 ```
 
+## linter
+
+```bash
+cd samplesns
+npm install -D husky lint-staged prettier
+```
