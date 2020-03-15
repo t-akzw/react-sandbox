@@ -14,10 +14,12 @@
 # 利用ツールについて
 
 - [browserlist](https://qiita.com/takeshisakuma/items/0bc1c39ee976bd1f52d7)
-- jest
+- jest(default)
 - react-scripts
 - typescript
-- 
+- prettier
+- storybook
+- [material-ui](https://qiita.com/Ouvill/items/c6761c32d31ffb11e114)
 
 # react導入手順
 
@@ -37,4 +39,15 @@ npm start
 ```bash
 cd samplesns
 npm install -D husky lint-staged prettier
+```
+
+## debug
+
+.vscode/launch.jsonを追加
+
+## storybook
+
+```bash
+npx -p @storybook/cli sb init
+npm run storybook
 ```
