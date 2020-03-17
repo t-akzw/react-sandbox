@@ -21,8 +21,12 @@
 - storybook
 - [material-ui](https://qiita.com/Ouvill/items/c6761c32d31ffb11e114)
 - styled-component
+- react-router
+- axios
 
 # react導入手順
+
+- https://create-react-app.dev/docs
 
 ## samplesns
 
@@ -64,7 +68,40 @@ npm install --save source-map-explorer
 ```bash
 npm install --save styled-components
 npm install @types/styled-components
+
+npm install --save-dev babel-plugin-styled-components
+# vim .babelrc
+
+npm install --save-dev \
+  stylelint \
+  stylelint-processor-styled-components \
+  stylelint-config-styled-components \
+  stylelint-config-recommended
+
+# vim .stylelintrc
 ```
+
+## react-router
+
+```bash
+npm install --save react-router-dom
+```
+
+## axios
+
+```bash
+npm install axios --save
+```
+
+## material ui
+
+```bash
+npm install @material-ui/core
+```
+
+## chrome
+
+- https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related
 
 ## パフォーマンス測定
 

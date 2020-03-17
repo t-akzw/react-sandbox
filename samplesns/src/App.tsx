@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components';
 
+import Button from '@material-ui/core/Button';
+
 const Title = styled.h1`
   font-size: 1.5em;
   text-align: center;
@@ -32,6 +34,9 @@ function App() {
           <Wrapper>
             <Title>Hello World!</Title>
           </Wrapper>
+          <Button variant="contained" color="primary">
+            Hello World
+          </Button>
         </a>
       </header>
     </div>
